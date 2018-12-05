@@ -1,10 +1,131 @@
-#carouselOffers {
-    height: 500px;
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Sedgwick+Ave" rel="stylesheet');
+
+body {
+    max-width: 1100px;
+    margin: auto;
+    
 }
 
-#carouselOffers img {
-    max-height: 450px;
+body {
+    background-color: AntiqueWhite;
+    
 }
+
+header nav .header-logo {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: pink;
+}
+
+.slider{
+	width: 820px; 
+	position: relative;
+	top: -75px;
+	padding-top: 400px; 
+	margin: 100px auto;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider>img{
+	position: absolute;
+	left: 0; top: 0;
+	transition: all 0.5s;
+}
+
+.slider input[name='slide_switch'] {
+	display: none;
+}
+
+.slider label {
+	margin: 18px 0 0 18px;
+	border: 3px solid #999;
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+	opacity: 0.6;
+}
+
+.slider label img {
+	display: block;
+}
+
+.slider input[name='slide_switch']:checked+label {
+	border-color: #666;
+	opacity: 1;
+}
+
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1.1);
+}
+
+.slider input[name='slide_switch']:checked+label+img {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.banner {
+    background-image: url(../img/clipart-cupcakes.jpg);
+    background-size: cover;
+    position: relative;
+    min-height: 700px;
+    top: -60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h2 {
+    position: relative;
+    top: 160px;
+    text-align: center;
+    color: IndianRed;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+    font-size: 3rem;
+}  
+
+.banner p {
+    color: IndianRed;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    position: relative;
+	top: 190px;
+	left: 240px;
+} 
+
+.banner p1 {
+    color: IndianRed;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    position: relative;
+    top: 190px;
+	left: 160px;
+} 
+
+.banner p3 {
+    color: IndianRed;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    position: relative;  
+    top: 210px;
+	left: 240px;
+} 
+
+.banner p4 {
+    color: IndianRed;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    position: relative;  
+    top: 170px;
+	left: 160px;
+} 
+
+.banner a {
+    position: relative;  
+    top: -70px;
+	left: 190px;
+} 
 
 .intro {
     max-width: 400px;
@@ -26,3 +147,116 @@
 .btn {
     padding: 0.75rem 0.7rem;
 }
+
+h2 {
+    color: LightCoral;
+    position: relative;
+    text-align: center;
+  font-size: 2.25em;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+  font-family: 'Dancing Script', cursive;
+}
+
+.social-links {
+    position: relative;
+    text-align: center;
+     color: pink; 
+}
+
+form {
+    margin: 0 auto;
+    max-width: 95%;
+    padding: 30px 30px 6px 30px;
+    border: 1px solid rgba(0,0,0,.2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgba(0, 0, 0, 0.5); 
+    background-color: MistyRose;
+    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
+    overflow: hidden; 
+}
+/* Поле сообщения */
+textarea{
+    background: rgba(255, 255, 255, 0.4); 
+    width: 100%;
+    height: 110px;
+    border: 1px solid rgba(255,255,255,.6);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    font-weight: 300;
+    color:#fff;
+    padding-left:25px;
+    padding-right:20px;
+    padding-top:12px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+/* Поля ввода */
+input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid rgba(255,255,255,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    font-weight: 300;    
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+}
+input[type=submit] {
+    cursor:pointer;
+}
+input.name {
+    background: rgba(255, 255, 255, 0.4); 
+    padding-left:25px;
+}
+input.email {
+    background: rgba(255, 255, 255, 0.4);
+    padding-left:25px;
+}
+input.message {
+    background: rgba(255, 255, 255, 0.4);
+    padding-left:25px;
+}
+::-webkit-input-placeholder {
+    color: #fff;
+}
+:-moz-placeholder{ 
+    color: #fff; 
+}
+::-moz-placeholder {
+    color: #fff;
+}
+:-ms-input-placeholder {  
+    color: #fff; 
+}
+input:focus, textarea:focus { 
+    background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    overflow: hidden; 
+}
+
+

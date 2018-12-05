@@ -1,51 +1,30 @@
 [
     {
         "id": "1",
-        "title": "Large drone",
-        "image": "drone-large.jpg",
-        "description": "Large drone for most critical missions. Can carry load.",
-        "price": 499.99
+        "title": "Strawberry Lemonade Cupcake",
+        "image": "yellow-cupcake-with-card.jpg",
+        "description": "Per Serving: 232 calories; 13.1 g fat; 26.7 g carbohydrates; 2.7 g protein; 70 mg cholesterol.",
+        "price": 3.99
     },
     {
         "id": "2",
-        "title": "Small drone",
-        "image": "drone-small.jpg",
-        "description": "Small drone. Can fly undetected.",
-        "price": 199.99
+        "title": "Peanut Butter Cookie Dough",
+        "image": "violet-cupcake.jpg",
+        "description": "Per Serving: 250 calories; 8.1 g fat; 24.7 g carbohydrates; 2.9 g protein; 64 mg cholesterol.",
+        "price": 2.99
     },
     {
         "id": "3",
-        "title": "Blue drone",
-        "image": "drone-blue.jpg",
-        "description": "Nice-looking drone in blue color. Has built-in HD camera",
-        "price": 249.99
+        "title": "Lemon Swirl Cupcake",
+        "image": "yellow-cupcake.jpg",
+        "description": "Per Serving: 217 calories; 13.1 g fat; 26.7 g carbohydrates; 1.7 g protein; 260 mg sodium; 75 mg cholesterol.",
+        "price": 4.99
     },
     {
         "id": "4",
-        "title": "Red drone",
-        "image": "drone-red.jpg",
-        "description": "Nice-looking drone in red color",
-        "price": 229.99
-    },
-    {
-        "id": "5",
-        "title": "Black gyroboard",
-        "image": "gyroboard-black.jpg",
-        "description": "Black gyroboard to match your style",
-        "price": 729.99
-    },
-    {
-        "id": "6",
-        "title": "White gyroboard",
-        "image": "gyroboard-white.jpg",
-        "description": "White gyroboard with blue lights",
-        "price": 829.99
-    },
-    {
-        "id": "7",
-        "title": "Tesla Model X",
-        "image": "tesla-x.jpg",
-        "description": "Best crossover in the World",
-        "price": 99999.99
+        "title": "Chocolate Caramel Coconut",
+        "image": "pink-cupcake.jpg",
+        "description": "Per Serving: 290 calories; 7.1 g fat; 23.7 g carbohydrates; 3.7 g protein; 240 mg sodium.",
+        "price": 1.99
     }
 ]
